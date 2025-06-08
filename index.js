@@ -3,7 +3,7 @@ const mongoose=require("mongoose");
 mongoose.connect("mongodb://127.0.0.1:27017/user_management?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.0");
 
 
-//installing   libraries
+//installing libraries
 const express=require("express");
 const app=express();
 app.set('views', './views'); 
